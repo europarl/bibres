@@ -1,5 +1,26 @@
 <https://data.europarl.europa.eu/def/bibres#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://data.europarl.europa.eu/def/bibres#> <http://www.w3.org/2002/07/owl#versionIRI> <https://data.europarl.europa.eu/def/bibres#> .
+<https://data.europarl.europa.eu/def/bibres#> <http://purl.org/dc/terms/description> "This document describes the BIBRES ontology: a knowledge model made of classes and properties for describing, using the W3C's RDF(S)/OWL technology, bibliographic resources."@en .
+<https://data.europarl.europa.eu/def/bibres#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://data.europarl.europa.eu/def/bibres#> <http://purl.org/dc/terms/title> "Bibliographic Resource Ontology"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # 
 # 
 # #################################################################

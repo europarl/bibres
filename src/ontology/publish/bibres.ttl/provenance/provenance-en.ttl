@@ -3,5 +3,6 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
 <https://data.europarl.europa.eu/def/bibres#> a prov:Entity;
+	 dc:title "Bibliographic Resource Ontology";
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 .
