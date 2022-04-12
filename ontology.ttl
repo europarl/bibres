@@ -7,7 +7,10 @@
 @base <https://data.europarl.europa.eu/def/bibres#> .
 
 <https://data.europarl.europa.eu/def/bibres#> rdf:type owl:Ontology ;
-                                               owl:versionIRI <https://data.europarl.europa.eu/def/bibres#> .
+  dcterms:title "Bibliographic Resource Ontology"@en ;
+  dcterms:description "This document describes the BIBRES ontology: a knowledge model made of classes and properties for describing, using the W3C's RDF(S)/OWL technology, bibliographic resources."@en ;
+  dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+  owl:versionIRI <https://data.europarl.europa.eu/def/bibres#> .
 
 #################################################################
 #    Object Properties
