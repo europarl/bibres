@@ -1,0 +1,322 @@
+[ {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#Briefing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Briefing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Document"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#CommitteeDraftReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The class of the draft reports of parliamentary committees "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Document"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#CommitteeDraftReportExpression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Expression"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#CommitteeDraftReportItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Item"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#CommitteeDraftReportManifestation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Manifestation"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#CommitteeDraftReportWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Work"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Basic class for describing bibliographic resources. It is equivalent to the class bibo:Document"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#Expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Expression is the specific intellectual or artistic form that a work takes each time it is 'realized'. It describes any different version over the time or across languages of a Work.\n           \"This class comprises the intellectual or artistic realisations of works in the form of\nidentifiable immaterial objects, such as texts, poems, jokes, musical or choreographic notations, movement pattern, sound pattern, images, multimedia objects, or any\ncombination of such forms that have objectively recognisable structures. The\nsubstance of Expression is signs\" [2]. It is equivalent to the class frbroo:F2_Expression"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#Item",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Item is a single exemplar of a manifestation. The entity defined as item is a concrete entity.\n    \"This class comprises physical objects (files, printed books, scores, CDs, DVDs, CDROMS, etc.)\" [2]. It is equivalent to the class frbroo:F5_Item\n    "
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#Manifestation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Manifestation is the physical embodiment of an expression of a work (ex: paper format, digital format, etc.). As an entity, manifestation represents all the physical objects that bear the same characteristics, in respect to both intellectual content and physical form. \"This class comprises the definitions of publication products.\nAn instance of Manifestation is the 'species', and all copies of a\ngiven object are 'specimens' of it.\" [2]. It is equivalent to the class frbroo:F3_Manifestation_Product_Type\n    "
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#Work",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Work is a distinct intellectual or artistic creation.\n     \"This class comprises distinct concepts or combinations of concepts identified in artistic and intellectual expressions, such as poems, stories or musical compositions.\nSuch concepts may appear in the course of the coherent evolution of an original idea into one or more expressions that are dominated by the original idea. A Work may be elaborated by one or more Actors simultaneously or over time. The substance of Work is ideas. A Work may have members that are works in their own right\" [2]"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#embodies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property associates a manifestation which embodies an expression. It is equivalent of the property frbroo:R4i_comprises_carriers_of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isEmbodiedIn"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#exemplifies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property associates a publication with one of its exemplars. It is equivalent of the property frbroo:R7_is_example_of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isExemplifiedBy"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#hasAspect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a bibliographic resource to its FRBR aspects"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isReflectedIn"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#hasExpressionAspect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a bibliographic resource to an expression reflected in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#hasAspect"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isExpressionReflectedIn"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#hasIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The natural identifier given by the publisher of the document."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#hasItemAspect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a bibliographic resource to an item reflected in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#hasAspect"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isItemReflectedIn"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#hasManifestationAspect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a bibliographic resource to a manifestation reflected in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Manifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#hasAspect"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isManifestationReflectedIn"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#hasWorkAspect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a bibliographic resource to a work reflected in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#hasAspect"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isWorkReflectedIn"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#isEmbodiedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This relationship links an expression with a manifestation, indicating that an expression is included in a manifestation. It is equivalent of the property frbroo:R4_carriers_provided_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Manifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#isExemplifiedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This relationship connects a manifestation with any item that reflects the characteristics of that manifestation. It is equivalent of frbroo:R7i_has_example"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Manifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#isExpressionReflectedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates an expression to a bibliographic resource that reflects it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isReflectedIn"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#isItemReflectedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates an item to a bibliographic resource that reflects it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isReflectedIn"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#isManifestationReflectedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a manifestation to a bibliographic resource that reflects it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isReflectedIn"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#isRealizedThrough",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This relationship links a work with any of the expressions the signs of which convey the same intellectual or artistic content. It is equivalent of frbroo:R3_is_realised_in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#realizes"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#isReflectedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates the FRBR aspect to the related bibliographic resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#isWorkReflectedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a work to a bibliographic resource that reflects it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://data.europarl.europa.eu/def/bibres#isReflectedIn"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A language of the resource. It is equivalent of the property dcterms:language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://data.europarl.europa.eu/def/bibres#realizes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property associates an instance of Expression with an instance of Work. It is equivalent of the property frbroo:R3i_realises"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+} ]
