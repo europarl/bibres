@@ -35,7 +35,7 @@ eli:LegalExpression a rdfs:Class, sh:NodeShape;
   sh:nodeKind sh:IRI;
   sh:order 2;
   sh:pattern "^http[s]?://(.*)/eli/(.*)";
-  sh:property elish:CB11, elish:CB12, elish:CB14, elish:CB15, elish:CB16, elish:CB17,
+  sh:property elish:CB11, elish:CB12, elish:CB14, elish:CB15, elish:CB16,
     elish:CB2, elish:CB3, elish:CB6, elish:CB7;
   sh:severity sh:Warning .
 
