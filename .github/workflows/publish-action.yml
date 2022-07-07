@@ -1,4 +1,4 @@
-name: widoco
+name: documentation
 on: push
 
 jobs:
@@ -21,15 +21,15 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H:%M:%S')"
 
-      - name: Commit and Push
+      - name: Commit and Push Documentation
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
-          source-directory: src/ontology/
+          source-directory: src/
           destination-github-username: 'europarl'
           destination-repository-name: 'doc-generator'
           user-email: lukashov.alexey@gmail.com
-          commit-message: Documentation generated on ${{ steps.date.outputs.date }} using Widoco.
+          commit-message: Documentation generated on ${{ steps.date.outputs.date }} .
           target-branch: main
-          target-directory: src/ontology/
+          target-directory: src/

@@ -12,7 +12,7 @@
 :
   a owl:Ontology ;
   dcterms:title "Bibliographic Resource Ontology"@en ;
-  dcterms:description "This document describes the BIBRES ontology: a knowledge model made of classes and properties for describing, using the W3C's RDF(S)/OWL technology, bibliographic resources."@en ;
+  dcterms:description "(fixme) This document describes the BIBRES ontology: a knowledge model made of classes and properties for describing, using the W3C's RDF(S)/OWL technology, bibliographic resources."@en ;
   dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
   owl:versionIRI : ;
 .
