@@ -19,7 +19,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 eli:LegalResource a rdfs:Class, sh:NodeShape;
-  rdfs:comment "Instances of LegalResource SHOULD be URIs, not blank nodes, and SHOULD contain \"/eli/\" in their URI"@en;
+  rdfs:comment "Manual Fix. Instances of LegalResource SHOULD be URIs, not blank nodes, and SHOULD contain \"/eli/\" in their URI"@en;
   rdfs:label "Legal resource"@en;
   sh:nodeKind sh:IRI;
   sh:order 1;
