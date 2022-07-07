@@ -9,7 +9,7 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://data.europarl.europa.eu/def/bibres#">
         <owl:versionIRI rdf:resource="https://data.europarl.europa.eu/def/bibres#"/>
-        <terms:description xml:lang="en">(fixme) This document describes the BIBRES ontology: a knowledge model made of classes and properties for describing, using the W3C&apos;s RDF(S)/OWL technology, bibliographic resources.</terms:description>
+        <terms:description xml:lang="en">This document describes the BIBRES ontology: a knowledge model made of classes and properties for describing, using the W3C&apos;s RDF(S)/OWL technology, bibliographic resources.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title xml:lang="en">Bibliographic Resource Ontology</terms:title>
     </owl:Ontology>

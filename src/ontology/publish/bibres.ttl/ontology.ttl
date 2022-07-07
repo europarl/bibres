@@ -8,7 +8,7 @@
 
 <https://data.europarl.europa.eu/def/bibres#> rdf:type owl:Ontology ;
                                                owl:versionIRI <https://data.europarl.europa.eu/def/bibres#> ;
-                                               <http://purl.org/dc/terms/description> "(fixme) This document describes the BIBRES ontology: a knowledge model made of classes and properties for describing, using the W3C's RDF(S)/OWL technology, bibliographic resources."@en ;
+                                               <http://purl.org/dc/terms/description> "This document describes the BIBRES ontology: a knowledge model made of classes and properties for describing, using the W3C's RDF(S)/OWL technology, bibliographic resources."@en ;
                                                <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                <http://purl.org/dc/terms/title> "Bibliographic Resource Ontology"@en .
 
