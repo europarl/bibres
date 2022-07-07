@@ -12,7 +12,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
-    "@value" : "This document describes the BIBRES ontology: a knowledge model made of classes and properties for describing, using the W3C's RDF(S)/OWL technology, bibliographic resources."
+    "@value" : "(fixme) This document describes the BIBRES ontology: a knowledge model made of classes and properties for describing, using the W3C's RDF(S)/OWL technology, bibliographic resources."
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0/"
